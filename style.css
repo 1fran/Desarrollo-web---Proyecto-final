@@ -70,10 +70,12 @@ header {
 }
 
 footer {
+    width: 100%;
     padding: 50px;
     text-decoration: none;
     list-style: none;
-    position: ;
+    position: absolute;
+    bottom: 0px;
 }
 
 .icon {
@@ -83,3 +85,24 @@ footer {
 
 /* estilos de los otros HTML */
 
+.mazo {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.perfil {
+    width: 300px;
+    height: fit-content;
+    border-radius: 15px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.839);
+    padding: 20px;  
+}
+
+.fotoperfil {
+    width: 90%;
+    height: 200px;
+     
+}
