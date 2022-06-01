@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Work+Sans&display=swap');
+
 /* aplico margin 0  y padding 0 a toda la pag */
 * {
     margin: 0;
@@ -10,8 +12,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
     height: 125vh;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* aplico el mismo fondo oscuro al header y footer */
@@ -50,9 +53,7 @@ header {
     margin: 40px;
 }
 
-.perfil {
-    width: 200px;
-}
+
 
 
 
@@ -70,10 +71,10 @@ header {
 }
 
 footer {
+    position: absolute (bottom);
     padding: 50px;
     text-decoration: none;
     list-style: none;
-    position: ;
 }
 
 .icon {
@@ -83,3 +84,24 @@ footer {
 
 /* estilos de los otros HTML */
 
+.mazo {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.perfil {
+    width: 300px;
+    height: fit-content;
+    border-radius: 15px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.839);
+    padding: 20px;  
+}
+
+.fotoperfil {
+    width: 90%;
+    height: 200px;
+     
+}
