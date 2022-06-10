@@ -12,26 +12,32 @@ body {
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     height: 125vh;
+    
 }
 
-/* aplico el mismo fondo oscuro al header y footer */
-
-header, footer {
-    padding: 10px;
+/* modifico algunas clases de bootstrap */
+.fondoheader {
     background-color: rgba(47, 47, 47, 0.947);
-}    
-
-header {
-    height: 140px;
 }
 
+.navbar{
+    padding: 0px;
+    
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.nav-item {
+    color: white;
+}
 .logo {
     height: 100px;
 }
 
 .links {
     padding: 10px;
-    color: white;
+    
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -50,9 +56,6 @@ header {
     margin: 40px;
 }
 
-.perfil {
-    width: 200px;
-}
 
 
 
@@ -60,35 +63,21 @@ header {
 /* background al texto para que se lea */
 .shows {
     border: 2px solid black;
-    padding: 50px 40px;
     background-color: rgba(255, 255, 255, 0.709);
-    display: flex;
-}
-
-.shows p {
-    margin: 0px 40px;
-}
-
-footer {
-    width: 100%;
-    padding: 50px;
-    text-decoration: none;
-    list-style: none;
-    position: absolute;
-    bottom: 0px;
-}
+    padding: 20px;
+    margin: 0;
+    }
 
 .icon {
     padding: 10px;
     max-height: 60px;
 }
 
-/* estilos de los otros HTML */
 
 .mazo {
     margin: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;   
 }
 
@@ -105,4 +94,13 @@ footer {
     width: 90%;
     height: 200px;
      
+}
+
+footer {
+    width: 100%;
+    padding: 50px;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgba(47, 47, 47, 0.947);
+    
 }
