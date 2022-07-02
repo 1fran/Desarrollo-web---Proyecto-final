@@ -1,3 +1,8 @@
-/* comentario en sass y css */
-/* blabla */
-/* funciona? */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: rgba(47, 47, 47, 0.947); }
+
+/* aplico margin 0  y padding 0 a toda la pag */

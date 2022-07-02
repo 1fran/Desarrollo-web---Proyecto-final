@@ -1,3 +1,12 @@
-/* comentario en sass y css */
-/* blabla */
-/* funciona? */
+* {
+    margin: 0;
+    padding: 0; }
+
+@import "./base/colores";
+
+body {
+    background-color: nth($colores, 1);
+}
+
+
+/* aplico margin 0  y padding 0 a toda la pag */
