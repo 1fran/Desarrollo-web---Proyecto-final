@@ -1,9 +1,10 @@
 footer {
     width: 100%;
-    padding: 50px;
+    padding: 30px;
     text-decoration: none;
     list-style: none;
     background-color: nth($colores, 1);
+    color: nth($colores, 2);
    
     
     .icon {
