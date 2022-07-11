@@ -19,7 +19,7 @@
   "homepage": "https://github.com/1fran/Desarrollo-web---Proyecto-final#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.19"
   },
   "description": ""
 }

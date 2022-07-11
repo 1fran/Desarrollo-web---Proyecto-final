@@ -2,7 +2,119 @@
   margin: 0;
   padding: 0; }
 
-body {
-  background-color: rgba(47, 47, 47, 0.947); }
+.navbar {
+  padding: 0px; }
+  .navbar .fondoheader {
+    background-color: rgba(47, 47, 47, 0.947); }
+    .navbar .fondoheader .logo {
+      height: 100px; }
+    .navbar .fondoheader .navbar-brand {
+      padding-left: 20px; }
+    .navbar .fondoheader .nav-item {
+      color: rgba(47, 47, 47, 0.947); }
+    .navbar .fondoheader .links {
+      padding: 10px;
+      text-decoration: none;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      font-size: 20px; }
 
-/* aplico margin 0  y padding 0 a toda la pag */
+footer {
+  width: 100%;
+  padding: 50px;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(47, 47, 47, 0.947); }
+  footer .icon {
+    padding: 10px;
+    max-height: 60px; }
+  footer .links {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px; }
+
+.musica {
+  width: 80vw;
+  display: flex;
+  justify-content: center; }
+
+.multimedia {
+  width: 80%;
+  margin: 40px; }
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px; }
+
+.shows {
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.709);
+  padding: 20px;
+  margin: 0; }
+
+.mazo {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .mazo .perfil {
+    width: 300px;
+    height: fit-content;
+    border-radius: 15px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.839);
+    padding: 20px; }
+    .mazo .perfil .fotoPerfil {
+      width: 90%;
+      height: 200px; }
+
+.tituloAmigos {
+  color: white;
+  margin-left: 20px; }
+
+.amigos {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .amigos .shows {
+    width: 400px;
+    /*height: fit-content;*/
+    border-radius: 15px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.839);
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: column; }
+    .amigos .shows .fotoamigos {
+      width: 100%;
+      height: 200px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; }
+    .amigos .shows a {
+      all: unset;
+      color: white;
+      font-size: large; }
+      .amigos .shows a:hover {
+        cursor: pointer;
+        color: grey; }
+
+/*modifico la tipografia e inserto un background a todo el body*/
+body {
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  body main {
+    margin-top: 120px;
+    flex-grow: 1; }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <title>Beatle Tone - Shows</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Beatle Tone - Bandas amigas</title>
 </head>
+
 <body>
     <!-- mismo header en todo el sitio -->
     <header>
@@ -17,9 +19,9 @@
         <!-- navbar de bootstrap -->
         <nav class="navbar fixed-top navbar-expand-lg bg-light">
             <div class="container-fluid fondoheader">
-                <img class="logo" src="images/logo.jpg" alt="imagen de beatle tone">
+                <img class="logo" src="../images/logo.jpg" alt="imagen de beatle tone">
 
-                <a class="navbar-brand" href="index.html">Beatle Toné</a>
+                <a class="navbar-brand" href="../index.html">Beatle Toné</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -50,15 +52,32 @@
 
     </header>
 
-    <!-- Videos de presentaciones anteriores -->
-
     <main>
-        <nav>
-            <section>
-                <video src=""></video>
-                <video src=""></video>
-                <video src=""></video>
+        <h1 class="tituloAmigos"> Nuestros amigos</h1>
+
+        <div class="amigos">
+            
+            <section class="shows">
+                <img class="fotoamigos" src="../images/oasis.jpg" alt="foto de oasis">
+                <a href="https://www.instagram.com/oasis/">OASIS</a>
             </section>
+
+            <section class="shows">
+                <img class="fotoamigos" src="../images/ringo.jpg" alt="foto de ringo">
+                <a href="https://www.instagram.com/ringostarrmusic/">Ringo Starr</a>
+            </section>
+
+            <section class="shows">
+                <img class="fotoamigos" src="../images/paul.jpg" alt="foto de paul">
+                <a href="https://www.instagram.com/paulmccartney/">Paul McCartney</a>
+            </section>
+
+            <section class="shows">
+                <img class="fotoamigos" src="../images/thebeats.jpg" alt="foto de debits">
+                <a href="https://www.instagram.com/oasis/">The Beats</a>
+            </section>
+        </div>
+
     </main>
 
     <footer>
@@ -67,30 +86,29 @@
         <ul class="links">
             <li>
                 <a href="https://www.instagram.com/beatletone/">
-                    <img class="icon" src="images/logoig.jpg" alt="logo instagram">
+                    <img class="icon" src="../images/logoig.jpg" alt="logo instagram">
                 </a>
             </li>
             <li>
                 <a href="https://web.whatsapp.com/">
-                    <img class="icon" src="images/logowa.png" alt="logo whatsapp">
+                    <img class="icon" src="../images/logowa.png" alt="logo whatsapp">
                 </a>
             </li>
             <li>
                 <a href="https://www.youtube.com/">
-                    <img class="icon" src="images/logoyt.jpg" alt="logo youtube">
+                    <img class="icon" src="../images/logoyt.jpg" alt="logo youtube">
                 </a>
             </li>
         </ul>
 
     </footer>
-
-   
-<!-- script de bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
-</script>    
+    <!-- script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

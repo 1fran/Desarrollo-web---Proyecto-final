@@ -1,13 +1,38 @@
 * {
     margin: 0;
-    padding: 0; }
-
-@import "./base/colores";
-
-body {
-    background-color: nth($colores, 1);
+    padding: 0;
 }
 
 
-/* aplico margin 0  y padding 0 a toda la pag */
-/* comentario */
+@import "base/colores";
+@import "base/listas";
+@import "base/variables";
+@import "components/header";
+@import "components/footer";
+@import "pages/index.scss";
+@import "pages/amigos.scss";
+@import "pages/contacto.scss";
+@import "pages/disco.scss";
+@import "pages/shows.scss";
+
+
+/*modifico la tipografia e inserto un background a todo el body*/
+
+body {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    main {
+        margin-top: 120px;
+        flex-grow: 1;
+       
+    }
+}

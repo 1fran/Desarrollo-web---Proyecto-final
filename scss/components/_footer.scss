@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    padding: 50px;
+    text-decoration: none;
+    list-style: none;
+    background-color: nth($colores, 1);
+   
+    
+    .icon {
+        padding: 10px;
+        max-height: 60px;
+    }
+    .links {
+        padding: 10px;    
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;    
+    }
+}

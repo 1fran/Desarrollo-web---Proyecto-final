@@ -1,0 +1,30 @@
+
+.navbar{
+    padding: 0px;
+    .fondoheader {
+        background-color: nth($colores, 1);
+        .logo {
+            height: 100px;
+        }
+        .navbar-brand{
+            padding-left: 20px;
+        }
+        .nav-item {
+            color: nth($colores, 1);
+        }
+        .links {
+            padding: 10px;    
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;    
+        }
+    }
+}
+
+
+
+
+
+
