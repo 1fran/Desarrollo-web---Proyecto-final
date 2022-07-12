@@ -11,15 +11,16 @@
     .navbar .fondoheader .navbar-brand {
       padding-left: 20px; }
     .navbar .fondoheader .nav-item {
-      color: white; }
+      color: #e6dbcb; }
     .navbar .fondoheader .links {
       padding: 10px;
-      text-decoration: none;
       list-style: none;
       display: flex;
       justify-content: space-around;
       font-size: 20px;
       color: rgba(128, 128, 128, 0.839); }
+      .navbar .fondoheader .links .active {
+        color: #e6dbcb; }
       .navbar .fondoheader .links:hover {
         cursor: pointer;
         color: red; }
@@ -28,19 +29,18 @@ footer {
   width: 100%;
   padding: 30px;
   text-decoration: none;
-  list-style: none;
   background-color: rgba(47, 47, 47, 0.947);
-  color: white; }
+  color: #e6dbcb; }
   footer .icon {
     padding: 10px;
-    max-height: 60px; }
-  footer .links {
-    padding: 10px;
-    text-decoration: none;
+    max-height: 60px;
+    transition: all 1s; }
+    footer .icon:hover {
+      transform: scale(1.5); }
+  footer .redes {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    font-size: 20px; }
+    justify-content: space-around; }
 
 .musica {
   width: 80vw;
@@ -79,7 +79,7 @@ footer {
       height: 200px; }
 
 .tituloAmigos {
-  color: white;
+  color: rgba(47, 47, 47, 0.947);
   margin-left: 20px; }
 
 .amigos {
@@ -104,11 +104,11 @@ footer {
       border-top-right-radius: 15px; }
     .amigos .shows a {
       all: unset;
-      color: white;
+      color: rgba(47, 47, 47, 0.947);
       font-size: large; }
       .amigos .shows a:hover {
         cursor: pointer;
-        color: rgba(47, 47, 47, 0.947); }
+        color: black; }
 
 .container {
   background-color: rgba(128, 128, 128, 0.839);
@@ -138,7 +138,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 600px;
-    border-bottom: 5px solid rgba(47, 47, 47, 0.947); }
+    border-bottom: 5px solid black; }
   body main {
     margin-top: 100px;
     flex-grow: 1; }

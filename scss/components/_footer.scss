@@ -2,21 +2,22 @@ footer {
     width: 100%;
     padding: 30px;
     text-decoration: none;
-    list-style: none;
-    background-color: nth($colores, 1);
-    color: nth($colores, 2);
+    background-color: nth($colores, 2);
+    color: nth($colores, 4);
    
     
     .icon {
         padding: 10px;
         max-height: 60px;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.5);
+        } 
     }
-    .links {
-        padding: 10px;    
-        text-decoration: none;
+    .redes {
         list-style: none;
         display: flex;
         justify-content: space-around;
-        font-size: 20px;    
+           
     }
 }
