@@ -119,6 +119,54 @@ footer {
     flex-direction: column;
     padding: 20px; }
 
+.fanaticos {
+  color: #e6dbcb; }
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+  .productos .shopContainer {
+    background-color: rgba(128, 128, 128, 0.839);
+    border-radius: 5px; }
+    .productos .shopContainer .shopItem {
+      padding: 10px; }
+      .productos .shopContainer .shopItem .shopImage {
+        width: 100%;
+        height: 100%; }
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2; }
+
+.div2 {
+  grid-area: 1 / 2 / 3 / 3; }
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4; }
+
+.div4 {
+  grid-area: 1 / 4 / 2 / 5; }
+
+.div5 {
+  grid-area: 2 / 3 / 3 / 5; }
+
+.div6 {
+  grid-area: 2 / 1 / 3 / 2; }
+
+.div7 {
+  grid-area: 3 / 2 / 4 / 3; }
+
+.div8 {
+  grid-area: 3 / 3 / 4 / 4; }
+
+.div9 {
+  grid-area: 3 / 4 / 4 / 5; }
+
+.div10 {
+  grid-area: 3 / 1 / 4 / 2; }
+
 .carouselContainer {
   width: 100%;
   padding: 30px 25%; }

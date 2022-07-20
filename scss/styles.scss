@@ -12,7 +12,7 @@
 @import "pages/index.scss";
 @import "pages/amigos.scss";
 @import "pages/contacto.scss";
-@import "pages/disco.scss";
+@import "pages/shop.scss";
 @import "pages/fotos.scss";
 
 
@@ -30,12 +30,11 @@ body {
     
     
     .titulo {
-     background-image: url(../images/fondo2.jpg);
-     background-size: cover;
-     
-     width: 100%;
-    height: 600px;
-    border-bottom: 5px solid nth($colores, 1);
+        background-image: url(../images/fondo2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        border-bottom: 5px solid nth($colores, 1);
     }
     
     main {
