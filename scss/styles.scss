@@ -35,6 +35,7 @@ body {
         width: 100%;
         height: 600px;
         border-bottom: 5px solid nth($colores, 1);
+        display: none;
     }
     
     main {
@@ -42,4 +43,14 @@ body {
         flex-grow: 1;
        
     }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        .titulo {
+        display: block;
+    }
+    }
+    
+    
 }
